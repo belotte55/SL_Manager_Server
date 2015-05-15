@@ -55,4 +55,8 @@
   	<!-- SL_Manager or Web -->
   	<Priority>Mac</Priority> 
   </Settings>
+  <Last_modif>
+	<Last_Pedal>1</Last_Pedal>
+	<Last_Action>Simple_Press</Last_Action>
+  </Last_modif>
 </Root>
