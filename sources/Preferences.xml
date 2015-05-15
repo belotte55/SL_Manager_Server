@@ -1,0 +1,58 @@
+<Root>
+  <Pedal_0>
+    <GPIO>24</GPIO>
+    <Go_to_value>0</Go_to_value>
+    <Actions>
+      <Simple_Press>26</Simple_Press>
+      <Double_Press>-1</Double_Press>
+      <Long_Press>2</Long_Press>
+    </Actions>
+  </Pedal_0>
+  <Pedal_1>
+    <GPIO>19</GPIO>
+    <Go_to_value>0</Go_to_value>
+    <Actions>
+      <Simple_Press>27</Simple_Press>
+      <Double_Press>-1</Double_Press>
+      <Long_Press>9</Long_Press>
+    </Actions>
+  </Pedal_1>
+  <Pedal_2>
+    <GPIO>18</GPIO>
+    <Go_to_value>0</Go_to_value>
+    <Actions>
+      <Simple_Press>-1</Simple_Press>
+      <Double_Press>-1</Double_Press>
+      <Long_Press>-1</Long_Press>
+    </Actions>
+  </Pedal_2>
+  <Pedal_3>
+    <GPIO>16</GPIO>
+    <Go_to_value>0</Go_to_value>
+    <Actions>
+      <Simple_Press>28</Simple_Press>
+      <Double_Press>-1</Double_Press>
+      <Long_Press>7</Long_Press>
+    </Actions>
+  </Pedal_3>
+  <Pedal_4>
+    <GPIO>15</GPIO>
+    <Go_to_value>0</Go_to_value>
+    <Actions>
+      <Simple_Press>2</Simple_Press>
+      <Double_Press>-1</Double_Press>
+      <Long_Press>8</Long_Press>
+    </Actions>
+  </Pedal_4>
+  <Connection>
+    <Port_Server>9000</Port_Server>
+    <!-- Last client's IP known -->
+    <IP_Client>192.168.2.1</IP_Client>
+    <!-- Last client's port known -->
+    <Port_Client>5002</Port_Client>
+  </Connection>
+  <Settings>
+  	<!-- SL_Manager or Web -->
+  	<Priority>Mac</Priority> 
+  </Settings>
+</Root>
