@@ -39,7 +39,7 @@
     <GPIO>15</GPIO>
     <Go_to_value>0</Go_to_value>
     <Actions>
-      <Simple_Press>2</Simple_Press>
+      <Simple_Press>7</Simple_Press>
       <Double_Press>-1</Double_Press>
       <Long_Press>8</Long_Press>
     </Actions>
@@ -49,7 +49,7 @@
     <!-- Last client's IP known -->
     <IP_Client>192.168.2.1</IP_Client>
     <!-- Last client's port known -->
-    <Port_Client>5002</Port_Client>
+    <Port_Client>50495</Port_Client>
   </Connection>
   <Settings>
   	<!-- SL_Manager or Web -->
