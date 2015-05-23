@@ -18,7 +18,7 @@ if [[ -e /usr/local/bin/SL_Manager_Server ]]; then
 			echo 'Purging previous files...'
 			sudo rm -r /usr/local/bin/SL_Manager_Server/*
 			echo 'Copying news files...'
-			sudo cp sources/* /usr/local/bin/SL_Manager_Server
+			sudo cp sources/* Preferences.xml /usr/local/bin/SL_Manager_Server
 			;;
 	esac
 else

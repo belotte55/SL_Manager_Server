@@ -113,15 +113,15 @@ while True:
 				for i in range(0, 5):
 					pedal = "/Root/Pedal_" + str(i) + "/"
 
-					simple_ = int(data[1 + i*3])
-					double_ = int(data[1 + i*3+1])
-					long_ = int(data[1 + i*3+2])
+					simple_ = str(data[1 + i*3])
+					double_ = str(data[1 + i*3+1])
+					long_ = str(data[1 + i*3+2])
 
 					xml.set(pedal + "Actions/Simple_Press", simple_)
 					xml.set(pedal + "Actions/Double_Press", double_)
 					xml.set(pedal + "Actions/Long_Press", long_)
 
-					pedals[i].set_actions(simple_, double_, long_)
+					pedals[i].set_actions(int(simple_), int(double_), int(long_))
 					print str(simple_) + str(double_) + str(long_)
 			elif data[0] == 'Set':
 				xml.set("Pedal_" + data[1] + "/Actions/" + data[2], data[3])
