@@ -1,4 +1,4 @@
-# SL_Manager
+# SL_Manager_Server
 
 Use install.sh to install SL_Manager_Server.
 
